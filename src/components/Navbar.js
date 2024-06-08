@@ -3,19 +3,18 @@ import { Link } from 'react-router-dom';
 import logo from '../Icons/logo.png';
 import './Navbar.css';
 
-
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <img src={ logo } alt="Logo" /> {/* Ensure you have a logo.png in the public folder */}
+        <img src={logo} alt="Logo" />
       </div>
       <ul className="navbar-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/blog">Blog</Link></li> {/* Link to the blog page */}
+        <li><Link to="/gallery">Gallery</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
       </ul>
     </nav>
   );

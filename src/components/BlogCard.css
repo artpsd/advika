@@ -1,10 +1,24 @@
 /* BlogCard.css */
+.blog-card-link {
+  display: block; /* Ensure the anchor tag takes up the entire card space */
+  text-decoration: none; /* Remove default underline */
+}
 .blog-card {
     width: 420px;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
+    transition: box-shadow 0.3s ease; 
   }
+
+  .blog-card:hover {
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1); /* Apply box shadow on hover */
+  }
+  
+  .blog-card:active {
+    transform: translateY(2px); /* Add slight downward shift on click */
+  }
+  
   
   .blog-cover {
     width: 100%;
@@ -39,7 +53,6 @@
   .learn-more-link {
     display: inline-block;
     color: #3914be;
-    padding: 8px 16px;
     text-decoration: none;
     font-size: 16px;
   }

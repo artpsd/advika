@@ -1,0 +1,8 @@
+.blog-section {
+    padding: 60px 15px;
+  }
+  
+  .blog-card-container {
+    display: flex; /* Use flexbox to arrange items */
+    gap: 20px; /* Add some space between cards */
+  }

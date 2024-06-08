@@ -1,6 +1,6 @@
 import React from 'react';
 import { Tab } from '@mui/material'; // Import Tab component from Material-UI
-import { Tabs, } from 'react-tabs'; // Import Tabs, TabList and TabPanel components from react-tabs
+import { Tabs, TabList } from 'react-tabs'; // Import Tabs, TabList and TabPanel components from react-tabs
 import { TabPanel } from 'react-tabs';
 import './AboutUs.css';
 

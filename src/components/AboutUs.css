@@ -7,42 +7,31 @@
   }
   
   .content-container {
-    margin: 'auto';
+    width: 70%; /* Adjusted width for better display */
     display: flex; /* Use flexbox to align items */
-    justify-content: center; /* Align items horizontally in the center */
-    align-items: center; /* Align items vertically in the center */
+    justify-content: space-between; /* Distribute space between items */
+    align-items: flex-start; /* Align items vertically at the top */
+    flex-direction: row; /* Arrange video and tabs side by side */
+  gap: 20px; /* Add gap between the video and tabs */
   }
   
   .video-container {
     flex: 1; /* Take up 50% of the container */
     margin-right: 20px; /* Adjust margin between video and tabs */
   }
-  
-  .tabs-container {
-    display: flex;
-    flex-direction: column;
+
+  .tabs-wrapper {
+    width: 50%; /* Make the tabs take up full width */
   }
   
-  .tabs-container input[type="radio"] {
-    display: none; /* Hide the default radio buttons */
+  .MuiTab-root {
+    font-weight: bold; /* Make tab labels bold */
   }
   
-  .tabs-container label {
-    cursor: pointer;
-    padding: 10px 20px;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    border-bottom: none; /* Remove bottom border for the active tab */
+  .MuiTabPanel-root {
+    text-align: left; /* Align tab content to the left */
+    margin: 0px; /* Add padding for tab content */
   }
   
-  .tabs-container input[type="radio"]:checked + label {
-    background-color: #fff;
-    border-bottom: 1px solid #f0f0f0; /* Add bottom border for the active tab */
-  }
-  
-  .tab-content {
-    padding: 20px;
-    border: 1px solid #ccc;
-  }
-  
+
   

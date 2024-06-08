@@ -6,3 +6,9 @@
     display: flex; /* Use flexbox to arrange items */
     gap: 20px; /* Add some space between cards */
   }
+
+  .blog-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  

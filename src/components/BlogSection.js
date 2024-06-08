@@ -6,6 +6,7 @@ import BlogCard from './BlogCard'; // Import the BlogCard component
 const BlogSection = () => {
   return (
     <div className="blog-section">
+      <h2>Blogs</h2>
       <div className="blog-card-container">
         <BlogCard
           coverImage="cover1.jpg"

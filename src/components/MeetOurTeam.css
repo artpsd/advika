@@ -82,5 +82,6 @@
   .team-subsection p {
     margin: 0;
     text-align: left;
+    max-width: 50%;
   }
   

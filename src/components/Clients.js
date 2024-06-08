@@ -9,19 +9,19 @@ import client6 from '../Icons/clients/client6.png';
 // Add more client logos as needed
 
 const Clients = () => {
-    const handleMouseEnter = () => {
-      const logos = document.querySelectorAll('.client-logos img');
-      logos.forEach((logo) => {
-        logo.style.animationPlayState = 'paused';
-      });
-    };
+    // const handleMouseEnter = () => {
+    //   const logos = document.querySelectorAll('.client img');
+    //   logos.forEach((logo) => {
+    //     logo.style.animationPlayState = 'paused';
+    //   });
+    // };
   
-    const handleMouseLeave = () => {
-      const logos = document.querySelectorAll('.client-logos img');
-      logos.forEach((logo) => {
-        logo.style.animationPlayState = 'running';
-      });
-    };
+    // const handleMouseLeave = () => {
+    //   const logos = document.querySelectorAll('.client img');
+    //   logos.forEach((logo) => {
+    //     logo.style.animationPlayState = 'running';
+    //   });
+    // };
   
   return (
     <div className="clients">

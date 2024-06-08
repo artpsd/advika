@@ -5,11 +5,18 @@
     padding: 15px;
     display: flex;
     max-width: 315px;
-    
+    position: relative; /* Ensure that the shadow is applied properly */
+    transition: transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out; /* Add transition for smooth effect */
+
     margin: 0;
 
   }
   
+  .service-card:hover {
+    border-color: rgba(13, 164, 162, 0.5); /* Highlight color with 50% opacity */
+    box-shadow: 0 3px 25px rgba(0, 0, 0, 0.03); /* Shadow effect */
+    transform: translateY(-3px);
+}
   .left-section {
     padding-right: 10px;
   }
@@ -39,7 +46,7 @@
   }
   
   .service-description,
-  .service-link {
+   .service-link {
     font-size: 16px;
     margin-bottom: 4px;
     color: #8C8C8C;
@@ -49,9 +56,9 @@
   
   .service-link {
     color: rgb(71, 71, 71);
-    padding: 8px 16px;
+    padding-top: 8px;
     display: inline-block; /* Ensure proper alignment */
-    transition: background-color 0.3s ease-in-out;
+  
   }
  
   

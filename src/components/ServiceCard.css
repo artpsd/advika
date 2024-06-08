@@ -1,0 +1,57 @@
+.service-card {
+    background-color: white;
+    border: .5px solid #DDDDDD;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    max-width: 315px;
+    
+    margin: 0;
+
+  }
+  
+  .left-section {
+    padding-right: 10px;
+  }
+  
+  .right-section {
+    padding: 0px;
+  }
+  
+  .service-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .text-section {
+    display: flex;
+    align-items: center; /* Align items vertically in the same line */
+    gap: 8px; /* Add some space between title and description */
+  }
+  
+  .service-title {
+    white-space: wrap; /* Prevent line breaks */
+    overflow: hidden; /* Hide overflowing text */
+    text-overflow: ellipsis; /* Show ellipsis for overflow */
+    text-align: left;
+    margin-bottom: 0px;
+  }
+  
+  .service-description,
+  .service-link {
+    font-size: 16px;
+    margin-bottom: 4px;
+    color: #8C8C8C;
+    text-decoration: none;
+    text-align: left;
+  }
+  
+  .service-link {
+    color: rgb(71, 71, 71);
+    padding: 8px 16px;
+    display: inline-block; /* Ensure proper alignment */
+    transition: background-color 0.3s ease-in-out;
+  }
+ 
+  

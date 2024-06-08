@@ -1,0 +1,86 @@
+.meet-our-team {
+    display: flex;
+    padding: 60px 15px;
+    gap: 40px;
+  }
+  
+  .team-left {
+    flex: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .team-left-top {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .team-image {
+    position: relative;
+    flex: 1;
+  }
+  
+  .team-image img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .image-text {
+    position: absolute;
+    bottom: 0;
+    left: 65px;
+    width: 50%;
+    background-color: rgba(13, 164, 162, 0.8); /* Green background with some opacity */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .team-left-bottom {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end; /* Align items to the right */
+  }
+  
+  .team-image-left {
+    flex: 1; /* Expand to fill available space */
+  }
+  
+  .team-right {
+    flex: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .team-right h2 {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .team-description {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    text-align: left;
+  }
+  
+  .team-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .team-subsection h6 {
+    margin-bottom: 0px;
+    text-align: left;
+  }
+  
+  .team-subsection p {
+    margin: 0;
+    text-align: left;
+  }
+  

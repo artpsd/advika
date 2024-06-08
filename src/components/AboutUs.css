@@ -1,7 +1,9 @@
 /* AboutUs.css */
 
 .about-us-container {
-    text-align: center; /* Center text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .content-container {
@@ -12,7 +14,7 @@
   }
   
   .video-container {
-    flex: 0.5; /* Take up 50% of the container */
+    flex: 1; /* Take up 50% of the container */
     margin-right: 20px; /* Adjust margin between video and tabs */
   }
   
@@ -42,4 +44,5 @@
     padding: 20px;
     border: 1px solid #ccc;
   }
+  
   

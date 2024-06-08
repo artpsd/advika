@@ -13,18 +13,18 @@
   
   .client-logos {
     display: flex;
-    animation: scrollAnimation 10s linear infinite;
+    animation: scrollAnimation 25s linear infinite;
+    transform: translateX(50%);
   }
   
   .client-logos:hover {
-    animation-play-state: paused;
+    animation-play-state: runnin;
   }
 
   .client-logos img {
     width: auto; /* Adjust as needed */
     height: 100px;
-    margin-right: 60px; /* Adjust spacing between logos */
-    gap: 100px;
+    margin-right: 150px; /* Adjust spacing between logos */
   }
   
   @keyframes scrollAnimation {

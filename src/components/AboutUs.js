@@ -1,5 +1,7 @@
 import React from 'react';
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import { Tab } from '@mui/material'; // Import Tab component from Material-UI
+import { Tabs, } from 'react-tabs'; // Import Tabs, TabList and TabPanel components from react-tabs
+import { TabPanel } from 'react-tabs';
 import './AboutUs.css';
 
 const AboutUs = () => {
@@ -23,21 +25,21 @@ const AboutUs = () => {
       
         
     <Tabs>
-          <TabList>
-            <Tab>Who We Are</Tab>
-            <Tab>Vision</Tab>
-            <Tab>What We Do</Tab>
-          </TabList>
-
-          <TabPanel>
-            <p>We are a group of food enthusiasts with a passion for innovation and excellence in the food industry.</p>
-          </TabPanel>
-          <TabPanel>
-            <p>Our vision is to revolutionize the food industry with innovative ideas and sustainable practices.</p>
-          </TabPanel>
-          <TabPanel>
-            <p>We offer a range of services from market analysis to brand positioning to help your business thrive.</p>
-          </TabPanel>
+          <Tab label="Who We Are">
+            <TabPanel>
+              <p>We are a group of food enthusiasts with a passion for innovation and excellence in the food industry.</p>
+            </TabPanel>
+          </Tab>
+          <Tab label="Vision">
+            <TabPanel>
+              <p>Our vision is to revolutionize the food industry with innovative ideas and sustainable practices.</p>
+            </TabPanel>
+          </Tab>
+          <Tab label="What We Do">
+            <TabPanel>
+              <p>We offer a range of services from market analysis to brand positioning to help your business thrive.</p>
+            </TabPanel>
+          </Tab>
         </Tabs>
       </div>
     </div>

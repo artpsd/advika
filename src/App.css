@@ -1,3 +1,8 @@
+.app-container {
+  max-width: 1600px;
+  margin: 0 auto; /* Center the container horizontally */
+}
+
 /* Define font family */
 body {
   font-family: 'Poppins', sans-serif;

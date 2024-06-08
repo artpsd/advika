@@ -1,6 +1,6 @@
 // src/App.js
 import React from 'react';
-// import { Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Banner from './components/Banner';
 import Clients from './components/Clients'
@@ -17,15 +17,15 @@ const App = () => {
   return (
     <div className="app">
       <Navbar />
-      <Banner />
+      {/* <Banner />
       <Clients />
       <AboutUs />
       <Services/>
       <MeetOurTeam />
       <Gallery />
-      <Blog />
+      <Blog /> */}
       
-      {/* <Routes>
+      <Routes>
         <Route path="/" element={<Banner />} />
         <Route path="/Clients" element={<Clients />} />
         <Route path="/Services" element={<Services />} />
@@ -33,7 +33,7 @@ const App = () => {
         <Route path="/Gallery" element={<Gallery />} />
         <Route path="/Blog" element={<Blog />} />
        
-      </Routes> */}
+      </Routes>
       <Footer />
     </div>
   );

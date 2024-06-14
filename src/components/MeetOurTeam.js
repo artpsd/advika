@@ -15,15 +15,17 @@ const MeetOurTeam = () => {
             <img src={teamMember2} alt="Team Member 2" />
             <div className="image-text">Chef Swatantra Verma, Co-Founder & Culinary Director </div>
           </div>
-          <div className="team-image team-image-right">
-            <img src={teamMember1} alt="Team Member 1" />
-            <div className="image-text">Chef Totan Debnath</div>
-          </div>
-        </div>
-        <div className="team-image team-image-right">
-          <img src={teamMember3} alt="Team Member 3" />
-          <div className="image-text">Chef Chaitra Krishnappa Lohar</div>
-        </div>
+          {/* <div className='rightimages'> */}
+              <div className="team-image team-image-right">
+                <img src={teamMember1} alt="Team Member 1" />
+                <div className="image-text">Chef Totan Debnath</div>
+              </div>
+            </div>
+            <div className="team-image team-image-right">
+              <img src={teamMember3} alt="Team Member 3" />
+              <div className="image-text">Chef Chaitra Krishnappa Lohar</div>
+            </div>
+        {/* </div> */}
       </div>
       <div className="team-right">
       <h2>Meet our Team</h2>

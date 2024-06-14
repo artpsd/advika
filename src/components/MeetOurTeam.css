@@ -84,9 +84,6 @@
     gap: 20px;
   }
   
-  /* .team-subsection {
-    width: 100%;
-  } */
   .team-subsection h4 {
     margin-bottom: 0px;
     font-size: 20px;
@@ -98,8 +95,11 @@
     margin: 0;
     color: #8C8C8C;
     text-align: left;
-    max-width: 50%;
+    max-width: 100%;
   }
 
+.rightimages{
+  display: block;
+}
 
   

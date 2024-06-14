@@ -21,8 +21,10 @@ h1 {
 }
 
 h2 {
+  margin: 0;
   font-size: 55px; /* Adjust size as needed */
   font-weight: 200;
+  text-align: center;
   /* Add any other styles */
 }
 

@@ -4,6 +4,10 @@
     gap: 40px;
   }
   
+  .meet-our-team h2 {
+    text-align: right;
+  }
+
   .team-left {
     flex: 60%;
     display: flex;
@@ -29,9 +33,9 @@
   
   .image-text {
     position: absolute;
-    bottom: 0;
-    left: 65px;
-    width: 50%;
+    bottom: 5px;
+    left: 0px;
+    width: 45%;
     background-color: rgba(13, 164, 162, 0.8); /* Green background with some opacity */
     color: white;
     text-align: center;

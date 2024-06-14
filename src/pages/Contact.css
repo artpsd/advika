@@ -1,0 +1,47 @@
+/* src/pages/Contact.css */
+
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .contact-top, .contact-bottom {
+    flex: 1; /* Each take up half of the container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact-top {
+    background-color: #0DA4A2; /* Green background */
+    color: #ffffff; /* White text color for contrast */
+    padding-top: 150px;
+    padding-bottom: 200px;
+    box-shadow: 0 -3px 60px rgba(0, 0, 0, 0.08); /* Shadow effect */
+    flex-direction: column;
+  }
+  
+  .contact-bottom {
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+  }
+  
+  .contact-form-wrapper {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .contact-top h1 {
+    margin: 0;
+  }
+  
+  .contact-top p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  

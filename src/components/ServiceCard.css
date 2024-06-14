@@ -48,6 +48,7 @@
   .service-description,
    .service-link {
     font-size: 16px;
+    margin-top: 8px;
     margin-bottom: 4px;
     color: #8C8C8C;
     text-decoration: none;
@@ -57,7 +58,8 @@
   .service-link {
     color: rgb(71, 71, 71);
     padding-top: 8px;
-    display: inline-block; /* Ensure proper alignment */
+    text-decoration: none;
+    margin-top: auto;
   
   }
  

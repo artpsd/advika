@@ -6,8 +6,8 @@ import teamMember3 from '../images/teamMember3.jpg';
 
 const MeetOurTeam = () => {
   return (
-    <>
-    <h2>Meet our Team</h2>
+    
+    
     <div className="meet-our-team">
       <div className="team-left">
         <div className="team-left-top">
@@ -26,24 +26,25 @@ const MeetOurTeam = () => {
         </div>
       </div>
       <div className="team-right">
+      <h2>Meet our Team</h2>
         <p className="team-description">We’re a group of passionate people helping Restaurants grow their food business.</p>
         <div className="team-info">
           <div className="team-subsection">
-            <h6>Chef Swatantra Verma</h6>
+            <h4>Chef Swatantra Verma</h4>
             <p>Meet our renowned Chef from Bangalore, known for his culinary excellence with 23+ years of expertise in the Food & Beverage industry.</p>
           </div>
           <div className="team-subsection">
-            <h6>Chef Totan Debnath</h6>
+            <h4>Chef Totan Debnath</h4>
             <p>Chef de Cuisine with 16+ years of experience in the Food & Beverage industry.</p>
           </div>
           <div className="team-subsection">
-            <h6>Chef Chaitra Krishnappa Lohar</h6>
+            <h4>Chef Chaitra Krishnappa Lohar</h4>
             <p>Bakery & Patisserie Chef with 3+ years of experience in the Food & Beverage industry.</p>
           </div>
         </div>
       </div>
     </div>
-    </>
+   
   );
 };
 

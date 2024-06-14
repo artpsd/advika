@@ -1,7 +1,10 @@
 .meet-our-team {
+    max-width: 60%;
+    max-height: 100%;
     display: flex;
     padding: 60px 15px;
     gap: 40px;
+    margin: auto;
   }
   
   .meet-our-team h2 {
@@ -9,6 +12,7 @@
   }
 
   .team-left {
+    max-height: 100%;
     flex: 60%;
     display: flex;
     flex-direction: column;
@@ -21,6 +25,7 @@
   }
   
   .team-image {
+    max-width: 50%;
     position: relative;
     flex: 1;
   }
@@ -51,12 +56,13 @@
   }
   
   .team-image-left {
+    margin: 0;
     flex: 1; /* Expand to fill available space */
   }
   
   .team-right {
     flex: 40%;
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     justify-content: center;
   }
@@ -78,14 +84,22 @@
     gap: 20px;
   }
   
-  .team-subsection h6 {
+  /* .team-subsection {
+    width: 100%;
+  } */
+  .team-subsection h4 {
     margin-bottom: 0px;
+    font-size: 20px;
+    font-weight: 500;
     text-align: left;
   }
   
   .team-subsection p {
     margin: 0;
+    color: #8C8C8C;
     text-align: left;
     max-width: 50%;
   }
+
+
   

@@ -6,7 +6,7 @@ import service2 from '../Icons/service2.svg';
 import service3 from '../Icons/service3.svg';
 // Import other service images as needed
 
-const Services = () => {
+const ServicesList = () => {
     const newBusinessServices = [
         {
           image: service1,
@@ -93,4 +93,4 @@ const Services = () => {
     );
   };
   
-  export default Services;
+  export default ServicesList;

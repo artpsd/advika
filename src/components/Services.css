@@ -8,7 +8,6 @@
   
   .services h2 {
     text-align: center;
-    margin-bottom: 30px;
   }
   
   .services-category {
@@ -16,6 +15,7 @@
   }
   
   .services-category h3 {
+    margin-top: 20px;
     color: #0DA4A2;
     text-align: left;
     margin-bottom: 20px;

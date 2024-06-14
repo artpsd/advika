@@ -1,8 +1,8 @@
 .meet-our-team {
-  max-width: 60%;
+  max-width: 1073px;
   max-height: 100%;
   display: flex;
-  padding: 60px 15px;
+  padding: 100px 15px;
   gap: 40px;
   margin: auto;
 }
@@ -62,16 +62,15 @@
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
+
 .team-right {
   flex: 1; /* Take remaining space */
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .team-right h2 {
   text-align: left;
-  margin-bottom: 20px;
 }
 
 .team-description {

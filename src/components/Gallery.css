@@ -11,8 +11,9 @@
   } */
   
   .gallery-right {
-    /* flex: 1; */
-    max-width: 23%;
+    flex: 1;
+    height: 15%;
+    border-radius: 10px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 10px;
@@ -27,7 +28,6 @@
 
   .gallery-left2 {
     /* flex: 1; */
-    max-width: 23%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 10px;
@@ -36,7 +36,7 @@
   }
   .gallery-right img {
   width: 100%;
-  height: 100%;
+  height: 50%;
   object-fit: cover; /* Ensures images are cropped to fill their containers */
 }
   

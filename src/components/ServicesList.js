@@ -62,7 +62,7 @@ const ServicesList = () => {
     
       return (
         <div className="services">
-        <h2>Our Services</h2>
+        <h2>Services</h2>
         <div className="services-category">
           <h3>New Business</h3>
           <div className="service-grid">

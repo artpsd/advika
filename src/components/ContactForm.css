@@ -1,4 +1,4 @@
-/* ContactForm.css */
+ContactForm.css
 .contact-header {
     text-align: center; /* Center-align the content */
     margin-bottom: 20px; /* Add some space below the container */
@@ -18,7 +18,7 @@
     padding: 40px;
     background-color: #fff;
     max-width: 600px;
-    margin: 0 auto;
+    margin: 10px auto;
   }
   
   .contact-form {
